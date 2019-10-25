@@ -69,7 +69,7 @@ const express    =  require("express"),
       
     // listening of port
 
-        const Port=process.env.POST||3000
+        const Port=process.env.PORT||3000
       app.listen(Port,()=>console.log("Server is running"));
 
 
