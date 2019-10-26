@@ -9,7 +9,7 @@ const express    =  require("express"),
         service:"gmail",
         auth:{
           user:"shubhamdogra076@gmail.com",
-          pass:process.env.password
+          pass:"jup!ter110"
         }
 
 
