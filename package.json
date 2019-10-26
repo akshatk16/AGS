@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ShubhamDogra112/AGS.git"
+    "url": "git+https://github.com/akshatk16/AGS.git"
   },
   "author": "Shubham Dogra",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ShubhamDogra112/AGS/issues"
+    "url": "https://github.com/akshatk16/AGS/issues"
   },
-  "homepage": "https://github.com/ShubhamDogra112/AGS#readme",
+  "homepage": "https://github.com/akshatk16/AGS#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
