@@ -15,6 +15,72 @@ main{
     flex-direction:column;
 }
 
+
+/* Typography */
+body{
+    /* background-color: #eee; */
+    letter-spacing: 2px;
+    font-family: 'Lato';
+
+}
+
+
+
+
+
+/* Navbarrrrrr */
+
+.navbar{
+    background-color: #08b9e685;
+    padding:0;
+
+}
+
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size:1.4rem;
+    padding:0.7rem;
+    font-weight: 500;
+    transition: all 0.3s ease-out;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#08b9e685;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color:#fff;
+    font-size:1.4rem;
+    transition: all 0.3s ease-out;
+
+}
+
+.navbar-light .navbar-nav .active>.nav-link:hover{
+    color:#08b9e685;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.navbar-light .navbar-brand{
+    color:#fff;
+    font-size:1.4rem;
+    font-weight: 500;
+    padding-left:1rem;
+}
+
+
+/* Navbarrrrr */
+
+.sidebar h1{
+    padding:1rem;
+}
+
+
+
 @media(max-width:600px){
 
     html{
@@ -34,10 +100,7 @@ main{
         text-align: center;
         flex-basis:30vh;
     }
-    .sidebar h1{
-        margin-bottom:1rem;
-    }
-
+  
     .content{
         display:flex;
         flex-direction: column;
