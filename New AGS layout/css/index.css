@@ -31,15 +31,14 @@ body{
 /* Navbarrrrrr */
 
 .navbar{
-    background-color: #08b9e685;
+    background-color: #e6e6ff;
     padding:0;
-
 }
 
 
 
 .navbar-light .navbar-nav .nav-link {
-    color: #fff;
+    color: #000000;
     font-size:1.4rem;
     padding:0.7rem;
     font-weight: 500;
@@ -48,25 +47,25 @@ body{
 
 
 .navbar-light .navbar-nav .nav-link:hover{
-    color:#08b9e685;
+    color:#9999ff;
     background-color: #fff;
     border-radius: 8px;
 }
 .navbar-light .navbar-nav .active>.nav-link{
-    color:#fff;
+    color:#000000;
     font-size:1.4rem;
     transition: all 0.3s ease-out;
 
 }
 
 .navbar-light .navbar-nav .active>.nav-link:hover{
-    color:#08b9e685;
+    color:#9999ff;
     background-color: #fff;
     border-radius: 8px;
 }
 
 .navbar-light .navbar-brand{
-    color:#fff;
+    color:#000000;
     font-size:1.4rem;
     font-weight: 500;
     padding-left:1rem;
@@ -100,7 +99,7 @@ body{
         text-align: center;
         flex-basis:30vh;
     }
-  
+
     .content{
         display:flex;
         flex-direction: column;
@@ -303,5 +302,5 @@ body{
 
   .btn-mod
   {
-	  margin-top:34px;
+	  margin-top:29px;
   }
