@@ -8,7 +8,7 @@
 .slider{
     height:20rem;
     padding:2rem;
-    
+
 }
 main{
     display: flex;
@@ -24,7 +24,7 @@ main{
         display: flex;
         flex-direction: column;
     }
-    
+
     .sidebar{
         width:100vw;
         display: flex;
@@ -37,40 +37,40 @@ main{
     .sidebar h1{
         margin-bottom:1rem;
     }
-    
+
     .content{
         display:flex;
         flex-direction: column;
         align-items: center;
         min-height: 5rem;
     }
-    
+
     .products,.services{
         display: flex;
         flex-direction: column;
         align-items: center;}
-    
-    
+
+
     .products .card-items,.services .card-items{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        
+
          }
 
-         
-    
+
+
     .card-items .card{
         margin: 1rem;
-    
+
     }
-    
+
     .products h1,.services h1{
         align-items: center;
         margin: 2rem;
     }
 
-    
+
 }
 
 @media(max-width:1050px){
@@ -129,18 +129,18 @@ main{
 
 @media(min-width:1051px){
 
-   
-    
+
+
     .main{
         display:flex;
         /* justify-content: space-between; */
-    
+
     }
     .content{
         display:flex;
         flex-basis:65vw;
         flex-direction: column;
-        
+
     }
     .sidebar{
         flex-basis:25vw;
@@ -148,40 +148,40 @@ main{
         justify-content: center;
         align-items: center ;
     }
-    
+
     .products{
         display: flex;
         margin-bottom: 1rem;
         flex-direction: column;
-        
-        
+
+
     }
-    
+
     .products .card{
         margin:1rem;
-    
+
     }
-    
+
     .services .card{
         margin:1rem;
-    
+
     }
     .services{
         display: flex;
         flex-direction: column;
-        
+
     }
-    
-    
+
+
     .services .card-items{
         flex-wrap:wrap;
-    
+
     }
-    
+
     .card-items{
         display:flex;
     }
-    
+
     .services h1,.products h1{
         align-self: center;
     }
@@ -193,43 +193,52 @@ main{
 .box{
     display:flex;
     margin:1rem;
-   
+    margin-left: 4rem;
+
+
   }
-  
+
   .one,.two,.three,.four{
     padding:2vw;
-  
+
   }
    a{
       text-decoration:none;
     }
-  
+
   ul{
     list-style:none;
   }
-  
+
   @media(max-width:600px){
     .box{
       flex-direction:column;
     }
   }
-    
+
   @media(max-width:1200px){
-    
+
     .box{
       flex-wrap:wrap;
     }
-    
+
     .one,.two,.three,.four{
       flex:45vw;
     }
-    
+
   }
 
 .creators{
-      text-align: center;
-      text-transform: uppercase;
+      text-align: right;
+      /* text-transform: uppercase; */
   }
-  
 
-  
+  .btn-primary
+  {
+	  margin-top:10px;
+  }
+
+  .btn-mod
+  {
+	  margin-top:34px;
+  }
