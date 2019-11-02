@@ -22,10 +22,24 @@ body{
     letter-spacing: 2px;
     font-family: 'Lato';
 
+
 }
 
-
-
+.jumbotron
+{
+	background-color: #ffffff;
+	padding: 0px;
+}
+.card-image
+{
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.h1
+{
+	filter:none;
+}
 
 
 /* Navbarrrrrr */
@@ -255,7 +269,7 @@ body{
 .box{
     display:flex;
     margin:1rem;
-    margin-left: 4rem;
+    margin-left: 2rem;
 
 
   }
@@ -263,6 +277,14 @@ body{
   .one,.two,.three,.four{
     padding:2vw;
 
+  }
+  .one
+  {
+	width: 25%;
+  }
+  .four
+  {
+	  padding-right:10px;
   }
    a{
       text-decoration:none;
