@@ -45,14 +45,7 @@ body{
     align-items: center;
     height:70vh;
 }
-/*
- .heading-box{
-    position:absolute;
-    top:15rem;
-    left:38rem;
-    align-items: center;
 
-} */
 
 .heading-primary{
     display: block;
@@ -87,6 +80,10 @@ body{
     justify-content: center;
     align-items: center;
     height:70vh;
+}
+
+.container{
+  margin:2rem auto;
 }
 /*
  .heading-box{
@@ -148,11 +145,12 @@ body{
 .card-body a{
 	background-color: #41b72f;
 	border:none;
-	transition: all 0.3s ease-in;
+	transition: all 0.3s ease-out;
 }
 
 .card-body a:hover{
-	background-color: #2cabb7;
+  background-color: #2cabb7;
+  transform: scale(1.25);
 
 
 }
@@ -380,7 +378,7 @@ body{
         align-items: center;
         text-align: center;
         flex-basis:30vh;
-	  padding-top: 1400px;
+	  
     }
 
     .content{
