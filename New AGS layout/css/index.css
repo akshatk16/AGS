@@ -158,7 +158,7 @@ body{
 }
 
 .sidebar h1,.products h1,.services h1{
-	color:#28b4a6b6;
+	color:#0a6771;
 	text-transform: uppercase;
 	transition: all 0.3s ;
 
@@ -173,7 +173,7 @@ body{
 
    .sidebar a{
    	display: block;
-   	color:#28b4a6b6;
+   	color:#115683;
    	text-decoration: none;
    	font-weight: 400;
    	font-size:1rem;
@@ -185,7 +185,7 @@ body{
    .sidebar a:hover{
    	padding:8px;
    	background-color:#fff;
-   	color:#76d56fc7;
+   	color:#33910D;
    	border-radius: 20px;
    }
 
@@ -195,10 +195,10 @@ body{
 
   }
 
-
-
-
-
+.dropdown a:hover
+{
+	color:#2210bf;
+}
 
 
 
