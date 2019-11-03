@@ -18,41 +18,203 @@ main{
 
 /* Typography */
 body{
-    /* background-color: #eee; */
+    background-color: #eee;
     letter-spacing: 2px;
     font-family: 'Lato';
+    padding:2vw;
+
+}
+
+.jumbotron{
+    background-image: linear-gradient(to right bottom, #76d56fc7,#28b4a6b6),url("../images/jumbo.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height:90vh;
+    padding-top:0;
+    display:flex;
+    flex-direction: column;
+
+
+
+}
+
+.jumbo-2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:70vh;
+}
+/*
+ .heading-box{
+    position:absolute;
+    top:15rem;
+    left:38rem;
+    align-items: center;
+
+} */
+
+.heading-primary{
+    display: block;
+    text-align: center;
+    letter-spacing: 20px;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 6rem;
+
+}
+.heading-secondary{
+    display: block;
+    color:#fff;
+}
+
+.jumbotron{
+    background-image: linear-gradient(to right bottom, #76d56fc7,#28b4a6b6),url("../images/jumbo.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height:90vh;
+    padding-top:0;
+    display:flex;
+    flex-direction: column;
+
+
+
+}
+
+.jumbo-2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:70vh;
+}
+/*
+ .heading-box{
+    position:absolute;
+    top:15rem;
+    left:38rem;
+    align-items: center;
+
+} */
+
+@keyframes moveRight{
+	0%{
+
+		transform: translateX(-8rem);
+	}
+
+	80%{
+
+		transform: translateX(1.5rem);
+	}
+
+	100%{
+			transform: translateX(0);
+	}
+}
+
+@keyframes moveLeft{
+	0%{
+
+		transform: translateX(8rem);
+	}
+
+	80%{
+
+		transform: translateX(-1.5rem);
+	}
+
+	100%{
+			transform: translateX(0);
+	}
+}
+
+.heading-primary{
+    display: block;
+    text-align: center;
+    letter-spacing: 20px;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 6rem;
+    animation: moveRight 2s;
+
+}
+.heading-secondary{
+    display: block;
+    color:#fff;
+    animation: moveLeft 2s;
+}
+
+.card-body a{
+	background-color: #76d56fc7;
+	border:none;
+	transition: all 0.3s ease-in;
+}
+
+.card-body a:hover{
+	background-color: #28b4a6b6;
 
 
 }
 
-.jumbotron
-{
-	background-color: #ffffff;
-	padding: 0px;
+.sidebar h1,.products h1,.services h1{
+	color:#28b4a6b6;
+	text-transform: uppercase;
+	transition: all 0.3s ;
+
 }
-.card-image
-{
-	background-repeat: no-repeat;
-	background-size: cover;
-	
-}
-.h1
-{
-	filter:none;
-}
+
+	.sidebar h1:hover,.products h1:hover,.services h1:hover{
+
+		transform: scale(1.2);
+
+
+	}
+
+   .sidebar a{
+   	display: block;
+   	color:#28b4a6b6;
+   	text-decoration: none;
+   	font-weight: 400;
+   	font-size:1rem;
+   	transition: all 0.3s linear;
+	line-height: 2rem;
+
+   }
+
+   .sidebar a:hover{
+   	padding:8px;
+   	background-color:#fff;
+   	color:#76d56fc7;
+   	border-radius: 20px;
+   }
+
+  .one a,.two a{
+  	text-decoration: none;
+
+
+  }
+
+
+
+
+
+
 
 
 /* Navbarrrrrr */
 
 .navbar{
-    background-color: #e6e6ff;
+
     padding:0;
+
 }
 
 
 
+
 .navbar-light .navbar-nav .nav-link {
-    color: #000000;
+    color:#fff;
     font-size:1.4rem;
     padding:0.7rem;
     font-weight: 500;
@@ -66,7 +228,7 @@ body{
     border-radius: 8px;
 }
 .navbar-light .navbar-nav .active>.nav-link{
-    color:#000000;
+    color:#fff;
     font-size:1.4rem;
     transition: all 0.3s ease-out;
 
@@ -74,12 +236,11 @@ body{
 
 .navbar-light .navbar-nav .active>.nav-link:hover{
     color:#9999ff;
-    background-color: #fff;
     border-radius: 8px;
 }
 
 .navbar-light .navbar-brand{
-    color:#000000;
+    color:#fff;
     font-size:1.4rem;
     font-weight: 500;
     padding-left:1rem;
@@ -89,7 +250,10 @@ body{
 /* Navbarrrrr */
 
 .sidebar h1{
-    padding:1rem;
+    /* padding:1rem; */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
 }
 
 
@@ -112,6 +276,7 @@ body{
         align-items: center;
         text-align: center;
         flex-basis:30vh;
+	  padding:top: 1400px;
     }
 
     .content{
@@ -220,8 +385,10 @@ body{
     }
     .sidebar{
         flex-basis:25vw;
-        padding:2rem;
-        justify-content: center;
+        padding-left: 2rem;
+	  padding-right: 2rem;
+	  padding-bottom: 2rem;
+	  justify-content: center;
         align-items: center ;
     }
 
