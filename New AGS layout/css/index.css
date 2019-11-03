@@ -18,9 +18,58 @@ main{
 
 /* Typography */
 body{
-    /* background-color: #eee; */
+    background-color: #eee;
     letter-spacing: 2px;
     font-family: 'Lato';
+    padding:2vw;
+
+}
+
+.jumbotron{
+    background-image: linear-gradient(to right bottom, #76d56fc7,#28b4a6b6),url("../images/jumbo.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height:90vh;
+    padding-top:0;
+    display:flex;
+    flex-direction: column;
+    
+
+
+}
+
+.jumbo-2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:70vh;
+}
+/* 
+ .heading-box{
+    position:absolute;
+    top:15rem;
+    left:38rem;
+    align-items: center;
+
+} */
+
+.heading-primary{
+    display: block;
+    text-align: center;
+    letter-spacing: 20px;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 6rem;
+
+}
+.heading-secondary{
+    display: block;
+    color:#fff;
+}
+
+
+   
 
 
 }
@@ -45,14 +94,16 @@ body{
 /* Navbarrrrrr */
 
 .navbar{
-    background-color: #e6e6ff;
+
     padding:0;
+    
 }
 
 
 
+
 .navbar-light .navbar-nav .nav-link {
-    color: #000000;
+    color:#fff;
     font-size:1.4rem;
     padding:0.7rem;
     font-weight: 500;
@@ -66,7 +117,7 @@ body{
     border-radius: 8px;
 }
 .navbar-light .navbar-nav .active>.nav-link{
-    color:#000000;
+    color:#fff;
     font-size:1.4rem;
     transition: all 0.3s ease-out;
 
@@ -74,12 +125,11 @@ body{
 
 .navbar-light .navbar-nav .active>.nav-link:hover{
     color:#9999ff;
-    background-color: #fff;
     border-radius: 8px;
 }
 
 .navbar-light .navbar-brand{
-    color:#000000;
+    color:#fff;
     font-size:1.4rem;
     font-weight: 500;
     padding-left:1rem;
