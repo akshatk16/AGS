@@ -68,27 +68,138 @@ body{
     color:#fff;
 }
 
+.jumbotron{
+    background-image: linear-gradient(to right bottom, #76d56fc7,#28b4a6b6),url("../images/jumbo.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height:90vh;
+    padding-top:0;
+    display:flex;
+    flex-direction: column;
+    
+
+
+}
+
+.jumbo-2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:70vh;
+}
+/* 
+ .heading-box{
+    position:absolute;
+    top:15rem;
+    left:38rem;
+    align-items: center;
+
+} */
+
+@keyframes moveRight{
+	0%{
+
+		transform: translateX(-8rem);
+	}
+
+	80%{
+
+		transform: translateX(1.5rem);
+	}
+
+	100%{
+			transform: translateX(0);
+	}
+}
+
+@keyframes moveLeft{
+	0%{
+
+		transform: translateX(8rem);
+	}
+
+	80%{
+
+		transform: translateX(-1.5rem);
+	}
+
+	100%{
+			transform: translateX(0);
+	}
+}
+
+.heading-primary{
+    display: block;
+    text-align: center;
+    letter-spacing: 20px;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 6rem;
+    animation: moveRight 2s;
+
+}
+.heading-secondary{
+    display: block;
+    color:#fff;
+    animation: moveLeft 2s;
+}
+
+.card-body a{
+	background-color: #76d56fc7;
+	border:none;
+	transition: all 0.3s ease-in;
+}
+
+.card-body a:hover{
+	background-color: #28b4a6b6;
+
+
+}
+
+.sidebar h1,.products h1,.services h1{
+	color:#28b4a6b6;
+	text-transform: uppercase;
+	transition: all 0.3s ;
+
+}
+
+	.sidebar h1:hover,.products h1:hover,.services h1:hover{
+
+		transform: scale(1.2);
+
+
+	}
+
+   .sidebar a{
+   	display: block;
+   	color:#28b4a6b6;
+   	text-decoration: none;
+   	font-weight: 400;
+   	font-size:1.5rem;
+   	transition: all 0.3s linear;
+
+
+   }
+
+   .sidebar a:hover{
+   	padding:8px;
+   	background-color:#fff;
+   	color:#76d56fc7;
+   	border-radius: 20px;
+   }
+
+  .one a,.two a{
+  	text-decoration: none;
+  	
+
+  }
 
    
 
 
-}
 
-.jumbotron
-{
-	background-color: #ffffff;
-	padding: 0px;
-}
-.card-image
-{
-	background-repeat: no-repeat;
-	background-size: cover;
-	
-}
-.h1
-{
-	filter:none;
-}
+
 
 
 /* Navbarrrrrr */
