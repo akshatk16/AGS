@@ -342,18 +342,20 @@ body{
     border-radius: 8px;
 }
 
-.navbar-light .navbar-brand{
+.navbar-light .navbar-brand .navbar-index{
     color:#fff;
     font-size:1.4rem;
     font-weight: 500;
     /* padding-left:1rem; */
-    
+
 }
 
 .navbar-brand{
-  padding-top: 0;
-  padding-bottom: 0;
-  
+	margin: 0px 5px 1px 8px;
+}
+
+.navbar-index{
+	padding:10px 10px 2px 0px;
 }
 
 
