@@ -354,11 +354,13 @@ body{
 	margin: 0px 5px 1px 8px;
 }
 
-.navbar-index{
-	padding:10px 10px 2px 0px;
+.index-logo{
+	margin-left: -32px;
 }
 
-
+.contact-nav{
+	margin:auto 10px;
+}
 /* Navbarrrrr */
 
 .sidebar h1{
