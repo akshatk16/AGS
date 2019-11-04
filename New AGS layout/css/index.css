@@ -195,6 +195,11 @@ body{
 
   }
 
+  .dropdown a{
+    color:#00cc99;
+    text-decoration: none;
+  }
+
 .dropdown a:hover
 {
 	color:#2210bf;
@@ -221,9 +226,7 @@ body{
     transform: scale(1.05);
   }
 
-  .NAV{
-    background-color: #76d56fc7;
-  }
+  
 
   .content-image {
     display:flex;
@@ -310,7 +313,7 @@ body{
 
 .nav-bg
 {
-	background-color: #00cc99;
+	background-color: #eee;
 	border-radius:20px;
 }
 
@@ -326,7 +329,7 @@ body{
 
 
 .navbar-light .navbar-nav .nav-link:hover{
-    color:#9999ff;
+    color:#00cc99;
     background-color: #fff;
     border-radius: 8px;
 }
@@ -338,7 +341,7 @@ body{
 }
 
 .navbar-light .navbar-nav .active>.nav-link:hover{
-    color:#9999ff;
+    color:#00cc99;
     border-radius: 8px;
 }
 
