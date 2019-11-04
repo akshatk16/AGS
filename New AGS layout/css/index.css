@@ -83,7 +83,7 @@ body{
 }
 
 .container{
-  margin:2rem auto;
+  margin:2rem auto 0rem auto;
 }
 /*
  .heading-box{
@@ -378,7 +378,7 @@ body{
         align-items: center;
         text-align: center;
         flex-basis:30vh;
-	  
+
     }
 
     .content{
