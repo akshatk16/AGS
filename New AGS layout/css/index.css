@@ -196,7 +196,7 @@ body{
   }
 
   .dropdown a{
-    color:#00cc99;
+    color:#000;
     text-decoration: none;
   }
 
@@ -226,7 +226,7 @@ body{
     transform: scale(1.05);
   }
 
-  
+
 
   .content-image {
     display:flex;
@@ -362,7 +362,7 @@ body{
 }
 
 .contact-nav{
-	margin:auto 10px;
+	margin-right: -29px;
 }
 /* Navbarrrrr */
 
