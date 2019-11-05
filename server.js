@@ -10,7 +10,7 @@ const express    =  require("express"),
 
       auth:{
         
-        api_key:"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";
+        api_key:"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"
       }
 
 
