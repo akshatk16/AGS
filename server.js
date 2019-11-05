@@ -2,18 +2,24 @@ const express    =  require("express"),
       bodyParser =  require("body-parser"),
         app      =  express(),
      nodeMailer  =  require("nodemailer");
+     sgTransport =  require("nodemailer-sendgrid-transport");
 
      require("dotenv").config();
 
-     const transporter = nodeMailer.createTransport({
-        service:"gmail",
-        auth:{
-          user:"shubhamdogra076@gmail.com",
-          pass:""
-        }
+     const transporter = nodeMailer.createTransport(sgTransport({
+
+      auth:{
+        
+        api_key:"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";
+      }
+
 
 
      })
+        
+       
+
+     )
     
     //  app configurations
 
@@ -45,8 +51,8 @@ const express    =  require("express"),
         res.redirect("/contact-us");
 
         transporter.sendMail({
-          to:"akshatkag@gmail.com",
-          from:"shubhamdogra076@gmail.com",
+          to:"akshatkag@gmail.com,shubhamdogra112@gmail.com",
+          from:"client@gmail.com",
           subject:"Testing ",
           html:"<h3>"+name+"</h3>"+"<h2>"+email+"</h2>"+"<h2>"+no+"</h2>"+"<p>"+query+"</p>"
 
