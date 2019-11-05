@@ -9,7 +9,7 @@ const express    =  require("express"),
         service:"gmail",
         auth:{
           user:"shubhamdogra076@gmail.com",
-          pass:"jup!ter110"
+          pass:""
         }
 
 
@@ -45,7 +45,7 @@ const express    =  require("express"),
         res.redirect("/contact-us");
 
         transporter.sendMail({
-          to:"shivanidogra789@gmail.com",
+          to:"akshatkag@gmail.com",
           from:"shubhamdogra076@gmail.com",
           subject:"Testing ",
           html:"<h3>"+name+"</h3>"+"<h2>"+email+"</h2>"+"<h2>"+no+"</h2>"+"<p>"+query+"</p>"
