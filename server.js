@@ -9,7 +9,7 @@ const express    =  require("express"),
         service:"gmail",
         auth:{
           user:"shubhamdogra076@gmail.com",
-          pass:"jup!ter110"
+          pass:""
         }
 
 
@@ -26,7 +26,6 @@ const express    =  require("express"),
 
       app.get("/",(req,res)=>res.render("index"));
       app.get("/about-us",(req,res)=>res.render("aboutUs"));
-      app.get("/services",(req,res)=>res.render("services"));
       app.get("/our-partners",(req,res)=>res.render("partners"));
       app.get("/contact-us",(req,res)=>res.render("contact"));
       app.get("/networking-infrastructure-and-security",(req,res)=>res.render("networking-infrastructure-and-security"))
@@ -70,7 +69,7 @@ const express    =  require("express"),
     // listening of port
 
         const Port=process.env.PORT||3000
-      app.listen(Port,()=>console.log("Server is running"));
+      app.listen(Port,process.env.IP,()=>console.log("Server is running"));
 
 
       
