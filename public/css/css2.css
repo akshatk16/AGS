@@ -180,14 +180,17 @@ body{
 
   .content-heading{
     margin:2rem;
+    /* margin-right:-2rem; */
+    font-weight: 600;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 38px;
+
     color:#0a6771;
     transition: all 0.3s;
   }
 
   .content-heading:hover{
-    transform: scale(1.05);
+    transform: scale(1.12);
   }
 
 
