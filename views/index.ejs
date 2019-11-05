@@ -1,238 +1,211 @@
-<% include partials/header%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+<!-- Header -->
 
-<section id="slider"><!--slider-->
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div id="slider-carousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#slider-carousel" data-slide-to="1"></li>
-                        <li data-target="#slider-carousel" data-slide-to="2"></li>
-                        <li data-target="#slider-carousel" data-slide-to="3"></li>
-                        <li data-target="#slider-carousel" data-slide-to="4"></li>
-                        <li data-target="#slider-carousel" data-slide-to="5"></li>
-                    </ol>
 
-                    <div class="carousel-inner">
-                        <div class="item active">
-                        <div class="col-sm-12"><img src="/images/networking-solutions.jpg" class="girl img-responsive" alt></div>
-                        </div>
 
-                        <div class="item">
-                        <div class="col-sm-12"><img src="/images/audio-video-solutions.jpg" class="girl img-responsive" alt></div>
-                        </div>
+<!-- </Header.> -->
 
-                        <div class="item">
-                        <div class="col-sm-12"><img src="/images/voice-solutions.jpg" class="girl img-responsive" alt></div>
-                        </div>
+<div class="jumbotron">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="/"><div class="index-logo"><img src="/images/agsLogo.png"  width="140" height="50"alt="logo"></div></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-                        <div class="item">
-                        <div class="col-sm-12"><img src="/images/wifi-solutions.jpg" class="girl img-responsive" alt></div>
-                        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+		<li class="nav-item">
+		  <a class="nav-link" href="/about-us">About Us</a>
+		</li>
 
-                        <div class="item">
-                        <div class="col-sm-12"><img src="/images/networking-security-solutions.jpg" class="girl img-responsive" alt></div>
-                        </div>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Our Products
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/networking-infrastructure-and-security">Networking Infrastructure And Security Solutions</a>
+                <a class="dropdown-item" href="/voice-solutions">Voice Solutions</a>
+                <a class="dropdown-item" href="/av-integration-and-boardroom-solutions">AV Integration And Boardroom Solutions</a>
+                <a class="dropdown-item" href="/wireless-solutions">Wireless Solutions</a>
 
-                        <div class="item">
-                        <div class="col-sm-12"><img src="/images/laptop-workstation-solutions.jpg" class="girl img-responsive" alt></div>
-                        </div>
 
-                    </div>
-                    <a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                    <a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
+              </div>
+              <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li> -->
+                  <li class="nav-item">
+                        <a class="nav-link" href="/our-partners">Our Partners</a>
+                      </li>
+            </li>
+
+          </ul>
+          <ul class="navbar-nav ml-auto">
+                <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">Enquiry</a>
+                      </li> -->
+
+                      <li class="nav-item">
+                            <a class="nav-link contact-nav" href="/contact-us">Contact us</a>
+                          </li>
+
+          </ul>
+
+        </div>
+      </nav>
+
+          <div class="jumbo-2">
+
+
+              <div class="heading-box">
+                  <h1><span class="heading-primary">AGS</span>
+                    <span class="heading-secondary">Asian Global Solution</span>
+                  </h1>
                 </div>
 
-            </div>
-        </div>
-    </div>
-</section><!--/slider-->
-
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-3">
-                <div class="left-sidebar">
-                    <h2>Category</h2>
-                    <div class="panel-group category-products" id="accordian"><!--category-productsr-->
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title"><a href="/networking-infrastructure-and-security">Networking Infrastructure & security</a></h4>
-                            </div>
-                        </div>
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title"><a href="/voice-solutions">Voice solutions</a></h4>
-                            </div>
-                        </div>
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title"><a href="/av-integration-and-boardroom-solutions">AV Integration & Boardroom Solutions</a></h4>
-                            </div>
-                        </div>
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title"><a href="/wireless-solutions">Wireless Solutions</a></h4>
-                            </div>
-                        </div>
-
-                    </div><!--/category-products-->
 
 
-                </div>
-            </div>
-
-            <div class="col-sm-9 padding-right">
+          </div>
 
 
 
 
-                <div class="recommended_items"><!--recommended_items-->
-                    <h2 class="title text-center">Our Products</h2>
 
-                    <div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <div class="col-sm-4">
-                                    <div class="product-image-wrapper">
-                                        <div class="single-products">
-                                            <div class="productinfo text-center">
-                                                <a href="/networking-infrastructure-and-security"><img src="/images/networking-infrastructure-and-security_1.jpg" alt border="0"></a>
-                                                <h2><a href="/networking-infrastructure-and-security">Networking Infrastructure & Security</a></h2>
-                                                <a href="/networking-infrastructure-and-security" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>More..</a>
-                                          </div>
+</div>
 
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="product-image-wrapper">
-                                        <div class="single-products">
-                                            <div class="productinfo text-center">
-                                                <a href="/voice-solutions"><img src="/images/voice-solutions-small.jpg" alt border="0"></a>
-                                                <h2><a href="/voice-solutions">Voice solutions</a></h2><br><br>
-                                                <a href="/voice-solutions" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>More..</a>
-                                          </div>
+<!-- main -->
+    <main>
+<!-- sliderrrr -->
 
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="product-image-wrapper">
-                                        <div class="single-products">
-                                            <div class="productinfo text-center">
-                                                <a href="/av-integration-and-boardroom-solutions"><img src="/images/av-integration-boardroom-solutions.jpg" alt border="0"></a>
-                                                <h2><a href="/av-integration-and-boardroom-solutions">AV Integration & Boardroom Solutions</a></h2><br>
-                                                <a href="/av-integration-and-boardroom-solutions" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>More..</a>
-                                          </div>
 
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
 
-                        </div>
+        <div class="main">
+
+                <div class="sidebar sidebar-home">
+                        <h1>Category</h1>
+
+                        <a href="/networking-infrastructure-and-security">Networking Infrastructure And Security Solutions</a><br>
+                        <a href="/voice-solutions">Voice Solutions</a><br>
+                        <a href="/av-integration-and-boardroom-solutions">AV Integration And Boardroom Solutions </a><br>
+                        <a href="/wireless-solutions">Wireless Solutions</a><br>
 
                     </div>
-                </div><!--/recommended_items-->
 
-                <div class="recommended_items"><!--recommended_items-->
-                    <h2 class="title text-center">Our Services</h2>
-
-                    <div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <div class="col-sm-4">
-                                    <div class="product-image-wrapper">
-                                        <div class="single-products">
-                                            <div class="productinfo text-center">
-                                            <img src="/images/networking-solutions-small.jpg" alt border="0">
-                                                <h2>Networking Solutions</h2>
-                                            </div>
-
-                                        </div>
+                    <div class="content">
+                            <div class="products">
+                                    <h1>Products</h1>
+                                    <div class="card-items">
+                                            <div class="card" style="width: 18rem;">
+                                                    <img src="/images/networkingSols.jpg" height="180">
+                                                    <div class="card-body">
+                                                      <h6 class="card-title">Networking Infrastructure & Security Solutions</h5>
+                                                      <p class="card-text"> </p>
+                                                      <a href="/networking-infrastructure-and-security" class="btn btn-primary">Learn More</a>
+                                                    </div>
+                                                  </div>
+                                                  <div class="card" style="width: 18rem;">
+                                                        <img src="/images/voiceSols.jpg" height="180">
+                                                        <div class="card-body">
+                                                          <h6 class="card-title">Voice Solutions</h5>
+                                                          <p class="card-text"></p>
+                                                          <a href="/voice-solutions" class="btn btn-primary btn-mod">Learn More</a>
+                                                        </div>
+                                                      </div>
+                                                      <div class="card" style="width: 18rem;">
+                                                            <img src="/images/avSols.jpg" height="180">
+                                                            <div class="card-body">
+                                                              <h6 class="card-title">AV Integration & Boardroom Solutions</h5>
+                                                              <p class="card-text"></p>
+                                                              <a href="/av-integration-and-boardroom-solutions" class="btn btn-primary">Learn More</a>
+                                                            </div>
+                                                          </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
-                                    <div class="product-image-wrapper">
-                                        <div class="single-products">
-                                            <div class="productinfo text-center">
-                                                <img src="/images/audio-video-solutions-small.jpg" alt border="0">
-                                                <h2>Audio Video Solutions</h2>
-                                            </div>
+                                <div class="services">
+                                    <h1>Services</h1>
+                                    <div class="card-items">
+                                            <div class="card" style="width: 18rem;">
+                                                    <img src="/images/networkingSols2.jpg" height="180">
+                                                    <div class="card-body">
+                                                      <h5 class="card-title">Networking Solutions</h5>
+                                                      <p class="card-text"></p>
+                                                      <!-- <a href="#" class="btn btn-primary">Learn More</a> -->
+                                                    </div>
+                                                  </div>
+                                                  <div class="card" style="width: 18rem;">
+                                                        <img src="/images/avSols2.jpg" height="180">
+                                                        <div class="card-body">
+                                                          <h5 class="card-title">Audio Video Solutions</h5>
+                                                          <p class="card-text"></p>
+                                                          <!-- <a href="#" class="btn btn-primary">Learn More</a> -->
+                                                        </div>
+                                                      </div>
+                                                      <div class="card" style="width: 18rem;">
+                                                            <img src="/images/networkingSols3.jpg" height="180">
+                                                            <div class="card-body">
+                                                              <h5 class="card-title">Network Security Solutions</h5>
+                                                              <p class="card-text"></p>
+                                                              <!-- <a href="#" class="btn btn-primary">Learn More</a> -->
+                                                            </div>
+                                                          </div>
+                                                          <div class="card" style="width: 18rem;">
+                                                                <img src="/images/laptopSols.jpg" height="180">
+                                                                <div class="card-body">
+                                                                  <h5 class="card-title">Laptops Solutions</h5>
+                                                                  <p class="card-text"></p>
+                                                                  <!-- <a href="#" class="btn btn-primary">Learn More</a> -->
+                                                                </div>
+                                                              </div>
 
-                                        </div>
+                                                              <div class="card" style="width: 18rem;">
+                                                                    <img src="/images/voiceSols2.jpg" height="180">
+                                                                    <div class="card-body">
+                                                                      <h5 class="card-title">Voice Solutions</h5>
+                                                                      <p class="card-text"></p>
+                                                                      <!-- <a href="#" class="btn btn-primary">Learn More</a> -->
+                                                                    </div>
+                                                                  </div>
+                                                                  <div class="card" style="width: 18rem;">
+                                                                        <img src="/images/wireless.jpg" height="180">
+                                                                        <div class="card-body">
+                                                                          <h5 class="card-title">Wireless Solutions</h5>
+                                                                          <p class="card-text"></p>
+                                                                          <!-- <a href="#" class="btn btn-primary">Learn More</a> -->
+                                                                        </div>
+                                                                      </div>
+
                                     </div>
-                                </div>
-
-                                <div class="col-sm-4">
-                                    <div class="product-image-wrapper">
-                                        <div class="single-products">
-                                            <div class="productinfo text-center">
-                                                <img src="/images/network-security-solutions.jpg" alt border="0">
-                                                <h2>Network Security Solutions</h2>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-sm-4">
-                                    <div class="product-image-wrapper">
-                                        <div class="single-products">
-                                            <div class="productinfo text-center">
-                                                <img src="/images/laptops-workstations-solutions.jpg" alt border="0">
-                                                <h2>Laptops Workstations Solutions</h2>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="col-sm-4">
-                                    <div class="product-image-wrapper">
-                                        <div class="single-products">
-                                            <div class="productinfo text-center">
-                                                <img src="/images/voice-solutions-small-2.jpg" alt border="0">
-                                                <h2>Voice Solutions</h2><br>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-sm-4">
-                                    <div class="product-image-wrapper">
-                                        <div class="single-products">
-                                            <div class="productinfo text-center">
-                                                <img src="/images/wireless-solutions.jpg" alt border="0">
-                                                <h2>Wireless Solutions</h2><br>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-                        </div>
 
                     </div>
-                </div><!--/recommended_items-->
 
-
-            </div>
         </div>
-    </div>
-</section>
+
+        </div>
 
 
 
-<% include partials/footer%>
+
+
+
+
+
+
+
+    </main>
+
+    <!-- Footer -->
+
+    <%include partials/footer%>
