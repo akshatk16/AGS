@@ -45,7 +45,7 @@ const express    =  require("express"),
         res.redirect("/contact-us");
 
         transporter.sendMail({
-          to:"akshatkag@gmail.com",
+          to:"shivanidogra789@gmail.com",
           from:"shubhamdogra076@gmail.com",
           subject:"Testing ",
           html:"<h3>"+name+"</h3>"+"<h2>"+email+"</h2>"+"<h2>"+no+"</h2>"+"<p>"+query+"</p>"
