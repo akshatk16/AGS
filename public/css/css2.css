@@ -85,6 +85,7 @@ body{
 
 .container{
   margin:2rem auto 0rem auto;
+  border-bottom:5px;
 }
 /*
  .heading-box{
@@ -405,7 +406,7 @@ body{
         align-items: center;
         text-align: center;
         flex-basis:30vh;
-	  padding-bottom: 5px;
+	  padding-bottom:5px;
 
     }
 
