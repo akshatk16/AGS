@@ -114,21 +114,7 @@ body{
 	}
 }
 
-.heading-primary{
-    display: block;
-    text-align: center;
-    letter-spacing: 20px;
-    color:#555;
-    text-transform: uppercase;
-    font-size: 6rem;
-    animation: moveRight 2s;
 
-}
-.heading-secondary{
-    display: block;
-    color:#555;
-    animation: moveLeft 2s;
-}
 
 .card-body a{
 	background-color: #41b72f;
